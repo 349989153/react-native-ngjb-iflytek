@@ -1,6 +1,10 @@
 # react-native-iflytek &middot;  [![npm](https://img.shields.io/npm/v/react-native-iflytek.svg)](https://www.npmjs.com/package/react-native-iflytek) [![npm](https://img.shields.io/npm/dm/react-native-iflytek.svg)](https://www.npmjs.com/package/react-native-iflytek) [![GitHub closed issues](https://img.shields.io/github/issues-closed/duanzjun/react-native-iflytek.svg)](https://github.com/duanzjun/react-native-iflytek/issues?q=is%3Aissue+is%3Aclosed)
 react-native-iflytek 是一个 React Native 下的科大讯飞语音库，可以进行语音识别与语音合成。
 此库来源于https://github.com/zphhhhh/react-native-speech-iflytek，在这基础上进行升级，测试在react-native 0.60及以上版本Android和Ios可用
+## 这个库是为ngjb而建
+科大讯飞不仅要求代码中使用appid来init，还要求iOS/Android的sdk也要在相应的应用下生成，否则无法使用。
+
+该库已经把sdk替换为ngjb应用的sdk，其他应用需要使用的话，请重新下载sdk，然后遵照Install的第2步替换sdk
 ## Support
 - React Native >= 0.60.0 from 0.2.0
 - Android
